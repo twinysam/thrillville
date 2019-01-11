@@ -1,0 +1,364 @@
+/* TQ STYLE by Santiago Méndez (Deja Vu Studio) */
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i|Libre+Baskerville:400,400i,700|Lora:400,400i,700,700i|Noticia+Text|Noto+Serif|Source+Serif+Pro:400,600,700');
+body {
+    background-color: #6F6F4A;
+    background-image: url("bg_01.gif");
+    color: #59593C;
+    font-family: 'Source Serif Pro', Georgia, serif;
+    margin-top: 0px;
+}
+.hide {
+	display: none;
+}
+h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a {
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+a:link {
+    color: #895343;
+}
+a:visited {
+    color: #895343;
+}
+a:hover {
+    color: #E2E2D6;
+}
+a.home {
+    display: block;
+    float: left;
+    border-style: none;
+    opacity: 0.8;
+}
+a.home:hover {
+    opacity: 1.0;
+}
+a.image {
+    border-style: none;
+}
+a.menu {
+    display: inline;
+    text-align: right;
+    text-decoration: none;
+    font-size: 28px;
+    color: #C8C8AE;
+}
+a.menu:hover {
+    color: #DFDFD0;
+}
+a.tableLink {
+    color: #895343;
+    text-decoration: none;
+}
+a.tableLink:hover {
+    /*color: #C1C1A4;
+    background-color: #895343;*/
+    color: #999966;
+}
+.box {
+    background-color: #C1C1A4;
+    width: 947px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #999966;
+    border-width: 12px;
+}
+.content {
+    width: 900px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+#header {
+    display: block;
+    position: absolute;
+    word-spacing: 20px;
+    text-align: right;
+    left: -50%;
+    right: -50%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 971px;
+    height: 50px;
+    background-color: #858558;
+    /*box-shadow: 0px 1px 5px hsla(0, 0%, 0%, 0.45);*/
+	border-bottom: 2px solid #5a5a3a;
+}
+#left {
+    float: left;
+    width: 425px;
+    margin-right: auto;
+    margin-left: 1%;
+}
+#quote {
+    width: 350px;
+    background-color: #D3D3C0;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+#download {
+    width: 230px;
+    background-color: #A8A884;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+    text-decoration: none;
+}
+#icons {
+    float: left;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+#download_title {
+    width: 95%;
+    height: 12px;
+    background-color: #9A9A6D;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding: 5px;
+    color: #D3D3C0;
+}
+#right {
+    text-align: center;
+    float: right;
+    width: 425px;
+    margin-left: auto;
+}
+#menu {
+    position: relative;
+    top: 8px;
+    right: 25px;
+}
+#issueNum {
+    text-align: center;
+}
+#quoteAuthor {
+    font-size: 12px;
+}
+#collabs {
+    text-align: center;
+}
+#tableTitle {
+    font-size: 22px;
+}
+#tableDes {
+    font-size: 14px;
+}
+/* ++++++++ About ++++++++ */
+
+#aboutLogos {
+    width: 350px;
+    float: right;
+    border-radius: 8px;
+    text-align: center;
+}
+img.aboutImg {
+    margin-top: 15px;
+}
+img#aboutBorder {
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 28px;
+    border-color: #E3E3D7;
+}
+#aboutText {
+    text-align: justify;
+    width: 520px;
+}
+/* ++++++++ Masthead ++++++++ */
+
+#color_2 {
+    color: #70704B;
+}
+hr.masthead {
+    width: 35%;
+    height: 1px;
+    border: 0px;
+    color: #70704B;
+    background-color: #70704B;
+}
+/* ++++++++ Articles ++++++++ */
+
+.articleNav {
+    width: 160px;
+    padding: 2px;
+    font-family: "MS Trebuchet", sans-serif;
+    font-size: 11px;
+    text-align: center;
+    word-spacing: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    background-color: #D3D3C0;
+    border-radius: 5px;
+}
+.styled-select select {
+    background-color: #D3D3C0;
+    color: #59593C;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    border: 0px solid #ccc;
+}
+.styled-select form {
+    background-color: #D3D3C0;
+    border-radius: 5px;
+    color: #59593C;
+    overflow: hidden;
+    width: 268px;
+    padding: 5px;
+    font-family: Georgia, serif;
+    font-size: 11px;
+    float: right;
+}
+#letterEditor {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+#letter {
+    background-image: url("letter_paper_04.jpg");
+    padding: 50px;
+}
+#articleTitle {
+    font-size: 38px;
+}
+#articleSubtitle {
+    font-size: 20px;
+}
+#byAuthor {
+    font-size: 12px;
+    color: #735948;
+}
+#author {
+    text-transform: uppercase;
+}
+#author a {
+    text-decoration: none;
+	color: #735948;
+}
+p.article:first-letter {
+    font-size: 500%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+    background-color: #D3D3C0;
+    float: left;
+}
+/* Apparently, Gecko (Firefox) is the only engine that renders this padding correctly
+but all others add padding to top and bottom by default, so this hack is needed. */
+
+@-moz-document url-prefix() {
+    p.article: first-letter {
+        padding: 15px;
+    }
+}
+#twoColumns {
+    margin-top: 20px;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 25px;
+    -moz-column-count: 2;
+    -moz-column-gap: 25px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 25px;
+}
+p.endArticle:after {
+    content: "\25A0";
+    color: #70704B;
+    padding-left: 10px;
+}
+.footnotes {
+    font-size: 11px;
+}
+hr.footnotes {
+    margin-right: 75%;
+    width: 35%;
+    height: 1px;
+    border: 0px;
+    color: #59593C;
+    background-color: #59593C;
+}
+/* ++++++++ Archive ++++++++ */
+
+#archiveOld {
+    float: right;
+    word-spacing: 195px;
+}
+#archiveDesc {
+    width: 450px;
+    float: right;
+    text-align: justify;
+}
+.archiveYear {
+    color: #A69273;
+}
+img.archiveCovers {
+    box-shadow: 2px 2px 5px hsl(0, 0%, 15%);
+}
+img.articles {
+    border: 8px solid #999966;
+    width: 421px;
+}
+/* ++++++++ Contact ++++++++ */
+
+.contactSocialMedia {
+    width: 100px;
+    background-color: #D3D3C0;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#twright {
+    display: inline;
+    float: right;
+}
+/* ++++++++ Footer ++++++++ */
+
+a.footer:link {
+    color: #BDBC9D;
+}
+a.footer:visited {
+    color: #BDBC9D;
+}
+a.footer:hover {
+    color: #D5D5BF;
+}
+.footer {
+    color: #9E9E70;
+    font-family: Trebuchet, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -5px;
+}
